@@ -1,6 +1,6 @@
-FROM adoptopenjdk/openjdk11:alpine-jre
+FROM eclipse-temurin:21-alpine
 
-ARG JAR_FILE=target/calculator.jar
+ARG JAR_FILE=./target/calculator.jar
 
 WORKDIR /opt/app
 
